@@ -264,8 +264,7 @@
       - test:
           if: "$Verbosity!='Terse'"
           then: [T: o]
-      # CORREÇÃO: o espanhol dizia "conjunto completo" (conjunto completo),
-      # mas o inglês é "set of all" — o conjunto de TODOS os x tais que...
+
       - T: "conjunto de todos os"
       - x: "*[1]/*[1]"
       - T: "tal que"
